@@ -62,11 +62,11 @@ img{
     width: 100%;
 }
 
+/*Navbar styling*/
+
 header {
     background: var(--primary-color);
 }
-
-/*Navbar styling*/
 
 header .nav-bar{
     display: flex;
@@ -75,8 +75,16 @@ header .nav-bar{
     padding: 20px;
 }
 
+.section-content{
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: var(--site-max-width);
+}
+
 .nav-bar .nav-logo .logo-text{
-    color: var(--white-color)
+    color: var(--white-color);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
 }
 .nav-bar .nav-menu{
     display: flex;

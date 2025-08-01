@@ -410,4 +410,10 @@ header .nav-bar{
     .menu-section .menu-list .menu-item{
         width: 100%;
     }
+    .testimonial-section .slider-wrapper{
+        margin: 0 0 30px;
+    }
+    .testimonial-section .swiper-slide-button{
+        display: none;
+    }
 }

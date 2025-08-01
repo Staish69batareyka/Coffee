@@ -260,6 +260,51 @@ header .nav-bar{
     font-size: var(--font-size-m);
 }
 
+/*Testimonials section */
+.testimonial-section {
+    padding: 50px 0 100px;
+    background: var(--light-pink-color);
+}
+.testimonial-section .slider-wrapper{
+    overflow: hidden;
+    margin: 0 60px 50px;
+}
+.testimonial-section .testimonial{
+    display: flex;
+    padding: 35px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial-section .testimonial .user-image{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 50px;
+    border-radius: var(--border-radius-circle);
+}
+.testimonial-section .testimonial .name{
+    margin-bottom: 16px;
+    font-size: var(--font-size-m);
+}
+.testimonial-section .testimonial .feedback{
+    line-height: 25px;
+}
+.testimonial-section .swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    opacity: 1;
+    background: var(--secondary-color);
+}
+.testimonial-section .swiper-slide-button{
+    margin-top: -50px;
+    color: var(--secondary-color);
+    transition: 0.3s ease;
+}
+.testimonial-section .swiper-slide-button:hover{
+    color: var(--primary-color);
+}
+
 /* Responsive media query code for max width 1024px */
 @media screen and (max-width: 1024px){
     .menu-section .menu-lis {
@@ -360,6 +405,7 @@ header .nav-bar{
     }
 }
 
+/* Responsive media query code for max width 640px */
 @media screen and (max-width: 640px){
     .menu-section .menu-list .menu-item{
         width: 100%;

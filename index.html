@@ -5,6 +5,8 @@
   <title>Coffee</title>
 <!-- Linking Font Awesome for icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+<!--  Linking Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -112,8 +114,52 @@
       </ul>
     </div>
   </section>
+<!-- Testimonial  -->
+  <section class="testimonial-section">
+    <h2 class="section-title">Testimonials</h2>
+    <div class="section-content">
+      <div class="slider-container swiper">
+        <div class="slider-wrapper">
+          <ul class="testimonials-list swiper-wrapper">
+            <li class="testimonial swiper-slide">
+              <img src="images/user-1.jpg" alt="User 1" class="user-image">
+              <h3 class="name">Sarah Johnson</h3>
+              <i class="feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="images/user-2.jpg" alt="User 2" class="user-image">
+              <h3 class="name">James Wilson</h3>
+              <i class="feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="images/user-3.jpg" alt="User 3" class="user-image">
+              <h3 class="name">Michael Brown</h3>
+              <i class="feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="images/user-4.jpg" alt="User 4" class="user-image">
+              <h3 class="name">Emily Harris</h3>
+              <i class="feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i>
+            </li>
+            <li class="testimonial swiper-slide">
+              <img src="images/user-5.jpg" alt="User 5" class="user-image">
+              <h3 class="name">Anthony Thompson</h3>
+              <i class="feedback">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
+<!--Linking Swiper script-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!--Custom script -->
 <script src="script.js"></script>
+
 </body>
 </html>
